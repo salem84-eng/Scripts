@@ -8,4 +8,4 @@ cd ..
 
 
 # Per rimuovere un file dall'history
-# git filter-branch --tree-filter 'rm -rf Reports/Test DATASET/Test.pbix' HEAD
+# git filter-branch --tree-filter "rm -rf 'Reports/Test DATASET/Test.pbix'" HEAD
