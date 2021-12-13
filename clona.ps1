@@ -9,3 +9,6 @@ cd ..
 
 # Per rimuovere un file dall'history
 # git filter-branch --tree-filter "rm -rf 'Reports/Test DATASET/Test.pbix'" HEAD
+
+# Per clonare tutti i branch remoti
+git push origin --tags refs/remotes/origin/*:refs/heads/*
